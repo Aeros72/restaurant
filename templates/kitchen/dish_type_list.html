@@ -1,9 +1,10 @@
-{% extends "base.html" %}
+{% extends "layouts/base.html" %}
 {% load crispy_forms_filters %}
 
 {% block content %}
+  <div style="margin-top: 100px">
   <h1>
-    Dish type List
+    Dish type list
     <a href="{% url 'kitchen:dish-type-create' %}" class="btn btn-primary link-to-page">
       Create
     </a>
@@ -45,4 +46,5 @@
   {% else %}
     <p>There are no dish types in the restaurant.</p>
   {% endif %}
+  </div>
 {% endblock %}
