@@ -1,0 +1,60 @@
+[
+{
+    "model": "kitchen.dishtype",
+    "pk": 2,
+    "fields": {
+        "name": "Pasta"
+    }
+},
+{
+    "model": "kitchen.cook",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$WD9nMOS1TNerJEhFgqQT0x$/n+XlPNfHWm4Kb4s/pEY8EFC288CGXnP7KLXzmtRbhM=",
+        "last_login": "2025-04-10T14:27:36.417Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@admin.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-02-26T13:41:30.231Z",
+        "years_of_experience": 15,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "kitchen.cook",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$5dl5pTnw45JX1gZOhglkxM$L9InpEOrtlGO63nZku0Nxr6neKdUJhv3l4VR3TuV1CA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "alex123",
+        "first_name": "Alex",
+        "last_name": "White",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-02-26T13:47:19.407Z",
+        "years_of_experience": 10,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "kitchen.dish",
+    "pk": 1,
+    "fields": {
+        "name": "Carbonara",
+        "description": "Tasty pasta from Italy",
+        "price": "43.00",
+        "dish_type": 2,
+        "cooks": [
+            1
+        ]
+    }
+}
+]
